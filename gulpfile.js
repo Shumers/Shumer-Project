@@ -56,7 +56,7 @@ var config = {
 };
 //Собираем пути к скриптам и стилям Bower 
 gulp.task('html:bower', function () {
-     gulp.src('./src/html/bem/bower.html') //Выберем файлы по нужному пути
+     gulp.src('./src/html/partials/bower.html') //Выберем файлы по нужному пути
         .pipe(wiredep({
             directory : "src/bower_components",
             })) //Забивает ссылки фреймворков в *.html <!-- bower:css/js --><!-- endbower -->
