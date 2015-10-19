@@ -1,0 +1,11 @@
+/*= partials/main.css */
+section {
+	display: flex;
+	color: blue;
+	font-size: 12px;
+	padding: 12px;
+}
+div {
+	lost-column: 1/2;
+}
+/*= partials/buttons.css */
