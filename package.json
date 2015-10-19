@@ -1,7 +1,21 @@
 {
-  "name": "Shumer.project",
+  "name": "Shumer-Project",
   "version": "0.1.0",
-  "author": "WebShumer",
+  "description": "Start frontend template",
+  "keywords": [
+    "frontend",
+    "template",
+    "css",
+    "postcss",
+    "gulp",
+    "lost"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shumers/Shumer-Project"
+  },
+  "author": "WebShumer (webshumer@gmail.com)",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "browser-sync": "^2.9.11",
@@ -22,5 +36,4 @@
     "stylelint": "^1.2.1",
     "wiredep": "latest"
   },
-  "dependencies": {}
 }
